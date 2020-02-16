@@ -1,4 +1,4 @@
-package com.example.dabang_test
+package com.eunhye.dabang_test
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

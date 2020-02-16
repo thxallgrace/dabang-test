@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dabang_test">
+    package="com.eunhye.dabang_test">
 
     <application
         android:allowBackup="true"
