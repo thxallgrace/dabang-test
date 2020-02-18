@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                tools:text="월세 1000/50"/>
+
+            <TextView
+                android:id="@+id/tv_room_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                tools:text="원룸"/>
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:lines="1"
+                android:ellipsize="end"
+                tools:text="신길역초역세권 여의도보도10분 안전보장~~"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginLeft="14dp">
+
+            <ImageView
+                android:id="@+id/iv_room"
+                android:layout_width="126dp"
+                android:layout_height="84dp" />
+
+            <CheckBox
+                android:id="@+id/cb_star"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@id/iv_room"
+                android:layout_alignRight="@id/iv_room"
+                android:gravity="right"
+                android:background="@drawable/ic_star"
+                android:button="@null"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>
